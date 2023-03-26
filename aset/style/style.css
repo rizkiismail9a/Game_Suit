@@ -59,3 +59,22 @@ img {
   border: 10px solid green;
   border-radius: 80px;
 }
+/* Breakpoints */
+
+@media screen and (max-width: 567px) {
+  .container {
+    width: 80vw;
+  }
+  img {
+    width: 70px;
+  }
+  .pilihanKita li {
+    margin-right: 2px;
+  }
+  .hasil {
+    left: 65px;
+  }
+  .pilihanKita img:hover {
+    border: 3px solid green;
+  }
+}
